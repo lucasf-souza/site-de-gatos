@@ -1,0 +1,182 @@
+html,
+body {
+    height: 98%;
+    margin: 0%;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: 15px solid gray;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.quadro {
+
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url(img/quest.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 30%;
+    left: 42%;
+}
+
+.desc {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    max-width: 200px;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    top: 32%;
+    left: 47%;
+}
+
+.quadro img {
+    width: 101%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#botao {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 205px;
+    position: absolute;
+    top: 70%;
+    left: 48%;
+}
+
+#botao:hover {
+    background-color: rgb(202, 202, 202);
+}
+
+.linha {
+    border-top: 2px solid #ffffff;
+    width: 15%;
+    margin: 20px 0;
+    position: absolute;
+    top: 81%;
+    left: 43%;
+}
+
+
+.patas {
+    width: 570px;
+    height: 150px;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url(img/patas.png);
+    position: absolute;
+    top: 2%;
+    left: 1%;
+}
+
+.patas2 {
+    width: 570px;
+    height: 150px;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url(img/patas2.png);
+    position: absolute;
+    top: 2%;
+    left: 68%;
+}
+
+.patas3 {
+    width: 570px;
+    height: 150px;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url(img/patas3.png);
+    position: absolute;
+    top: 80%;
+    left: 68%;
+}
+
+.patas4 {
+    width: 570px;
+    height: 150px;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url(img/patas4.png);
+    position: absolute;
+    top: 80%;
+    left: 1%;
+}
+
+.miau {
+    width: 400px;
+    height: 85px;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url(img/miau.png);
+    position: absolute;
+    top: 43%;
+    left: 4%;
+}
+
+.miau2 {
+    width: 400px;
+    height: 85px;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url(img/miau2.png);
+    position: absolute;
+    top: 43%;
+    left: 70%;
+}
